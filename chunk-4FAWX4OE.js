@@ -1,0 +1,1 @@
+var t={production:!1,API_URL:"http://localhost:4000/api/v1/",SOCKET_URL:"http://localhost:4000",baseAPI:"/assets/data/",dummyjsonAPI:"https://dummyjson.com/auth/",DUMMYJSON_API:"https://dummyjson.com/auth/",APP_TOKEN:"appToken",CURRENT_USER:"currentUser"};export{t as a};

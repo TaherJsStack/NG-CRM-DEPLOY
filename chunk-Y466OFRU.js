@@ -1,0 +1,1 @@
+import{Mb as i,Nb as a,hc as r,pc as s,ta as o}from"./chunk-CSPISQ2Y.js";import"./chunk-MON7YFGF.js";var d=(()=>{let e=class e{};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=o({type:e,selectors:[["app-500"]],standalone:!0,features:[s],decls:2,vars:0,template:function(n,c){n&1&&(i(0,"p"),r(1,"500 works!"),a())}});let t=e;return t})();export{d as Error500Component};
