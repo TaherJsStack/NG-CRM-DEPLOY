@@ -1,5 +1,5 @@
 {
-  "login": {
+  "login2": {
     "EnterYourE-mail": "أدخل بريدك الإلكتروني",
     "EnterYourPassword": "ادخل رقمك السري",
     "InvalidE-mail": "بريد إلكتروني خاطئ",
@@ -81,5 +81,49 @@
     "Status":"حالة",
     "NoOrders":"لا توجد طلبات",
     "ShopNow": "التسوق الان"
-  }
+  },
+
+
+  "Ar": "عربي",
+  "En": "انجليزي",
+  "Dark": "مظلم",
+  "Light": "مضيئ",
+
+  "WelcomeBack":"مرحبًا بعودتك",
+    "SignInToContinueTo":"قم بتسجيل الدخول للمتابعة",
+    "UserNameOrEmail":"اسم المستخدم / البريد الالكتروني",
+    "EnterUserNameOrEmail":"ادخل اسم المستخدم او البريد الالكتروني",
+    "UserNameOrEmailRequired":"يرجى ادخال البريد الالكتروني",
+    "PleaseEnterValidEmail":"يرجى إدخال عنوان بريد إلكتروني صالح.",
+    "Password":" كلمة المرور",
+    "EnterPassword":"ادخل كلمة المرور",
+    "PasswordRequired":" يرجى ادخال كلمة المرور",
+    "RememberMe":"تذكرني",
+    "Login":"تسجيل الدخول",
+    "OrLoginWith":"او تسجيل الدخول باستخدام",
+
+    "ResetPassword":"اعادة تعيين كلمة المرور",
+    "PleaseEnterYourNewPasswordFor":"الرجاء ادخال كلمة المرور الجديدة ل",
+    "PasswordMustContain":"يجب عليك تحتوي كلمة المرور على حرف كبير وحرف صغير",
+    "oneLowerLetter":"حرف صغير وحرف كبير",
+    "OneNumberAndOneSpecialCharacter":"رقم واحد، حرف خاص",
+    "NewPassword":"كلمة المرور الجديدة",
+    "EnterNewPassword":"ادخل كلمة المرور الجديدة",
+    "NewPasswordRequired":"يرجى ادخال كلمة المرور الجديدة",
+    "PasswordMinLength":"يجب عليك تحتوي كلمة المرور على على الاقل 8 حروف",
+    "ConfirmPassword":"تأكيد كلمة المرور",
+    "EnterConfirmPassword":"ادخل تأكيد كلمة المرور",
+    "ConfirmPasswordRequired":"يرجى تأكيد كلمة المرور",
+    "PasswordNotMatch":"كلمات المرور غير متطابقة.",
+    "Confirm":"تأكيد",
+    "Signin":"تسجيل الدخول",
+
+    "ForgotPassword":"هل نسيت كلمة السر",
+    "PleaseEnterYourEmailAddressFor":"يرجى إدخال عنوان بريدك الإلكتروني لإعادة تعيين كلمة المرور الخاصة بك",
+    "SendCode":"ارسال كود",
+    "ConfirmOTPCode":"تأكيد رمز OTP",
+    "KindlyEnterYourOTPCode":"يرجى إدخال رمز OTP الخاص بك",
+    "Didn'tReceiveTheCode":"لم تتلق الرمز",
+    "CodeWillBeResendAfter":"سيتم اعادة ارسال الرمز بعد",
+    "Seconds":" ثواني"
 }

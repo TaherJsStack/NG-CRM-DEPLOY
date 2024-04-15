@@ -1,5 +1,5 @@
 {
-  "Login": {
+  "Login2": {
     "EnterYourE-mail": "Enter Your E-mail",
     "EnterYourPassword": "Enter Your Password",
     "InvalidE-mail": "Invalid E-mail",
@@ -12,9 +12,8 @@
     "Profile": "Profile",
     "Logout": "logout",
     "AR": "ar",
-    "EN": "en",
-    "ar": "ar",
-    "en": "en"
+    "EN": "en"
+
   },
   "SideMenu": {
     "Dashboard": "Dashboard",
@@ -82,7 +81,50 @@
     "View":"View",
     "NoOrders":"No Orders",
     "ShopNow": "shop Now"
-   
-  }
+  },
+
+
+  "Ar": "arabic",
+  "En": "english",
+  "Dark": "Dark",
+  "Light": "Light",
+
+  "WelcomeBack":"Welcome Back",
+  "SignInToContinueTo":"Sign in to continue to",
+  "UserNameOrEmail":"UserName/ Email ID",
+  "EnterUserNameOrEmail":"Enter username or email",
+  "UserNameOrEmailRequired":"email address is required",
+  "PleaseEnterValidEmail":"Please enter a valid email address.",
+  "Password":"Password",
+  "EnterPassword":"Enter Password",
+  "PasswordRequired":" Password is required",
+  "RememberMe":"Remember me",
+  "Login":"Login",
+  "OrLoginWith":"Or login with",
+
+  "ResetPassword":"Reset Password",
+  "PleaseEnterYourNewPasswordFor":"Please enter your new password for",
+  "PasswordMustContain":"Password must contain at least one uppercase letter",
+  "oneLowerLetter":"one lowercase letter",
+  "OneNumberAndOneSpecialCharacter":"one number, and one special character",
+  "NewPassword":"New Password",
+  "EnterNewPassword":"Enter New password",
+  "NewPasswordRequired":"New password is required",
+  "PasswordMinLength":"Password must be at least 8 characters long.",
+  "ConfirmPassword":"Confirm Password",
+  "EnterConfirmPassword":"Enter Confirm Password",
+  "ConfirmPasswordRequired":"Confirm password is required",
+  "PasswordNotMatch":"Passwords do not match.",
+  "Confirm":"Confirm",
+  "Signin":"Signin",
+
+  "ForgotPassword":"Forgot Password",
+  "PleaseEnterYourEmailAddressFor":"kindly enter your email address to reset your password for",
+  "SendCode":"Send Code",
+  "ConfirmOTPCode":"Confirm OTP Code",
+  "KindlyEnterYourOTPCode":"kindly enter your OTP code",
+  "Didn'tReceiveTheCode":"Didn't receive the code?",
+  "CodeWillBeResendAfter":"code will be resend after",
+  "Seconds":"seconds"
 
 }
