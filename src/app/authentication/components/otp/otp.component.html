@@ -1,0 +1,37 @@
+
+<section class="rounded-2">
+    
+    <div class="header mb-5">
+        <b class="text-center d-block mb-4 text-uppercase">System</b>
+      <!-- <div class="logo w-25 m-auto mb-4"> -->
+          <!-- <img src="assets/images/logo.png" alt="" srcset="" class="w-100"> -->
+          <!-- </div> -->
+          <div class="title text-center">
+              <h4 class="text-uppercase fw-bold">{{ "ConfirmOTPCode" | translate }} !</h4>
+            </div>
+            <div class="sub-title text-center">
+                <p class="text-lowercase text-secondary"> {{ "KindlyEnterYourOTPCode" | translate }} <strong class="text-uppercase">system</strong>.</p>
+            </div>
+        </div>
+        
+        <ng-otp-input class="m-auto mb-4" (onInputChange)="onOtpChange($event)"  [config]="{length:4}"></ng-otp-input>
+  
+      <button type="button" class="btn btn-primary w-100" (click)="onSubmit()">{{"Confirm" | translate }}</button>
+
+        <a class="text-center" routerLink="/authentication/forgot-password"> {{ "Didn'tReceiveTheCode" | translate }}? </a>
+        <p class="text-center"> {{ "CodeWillBeResendAfter" | translate }} <span ngClass="{{ sendOTPAfter > 0 ? 'text-danger' : 'text-success'}}">{{ sendOTPAfter }}</span>  {{ "Seconds" | translate }}</p>
+
+    <div class="footer text-center">
+      <!-- Don't have an account ? SignUp -->
+      <a routerLink="/authentication">{{"Signin" | translate}}</a>
+    </div>
+  
+  
+  </section>
+  
+  
+  
+  
+  
+  
+  
