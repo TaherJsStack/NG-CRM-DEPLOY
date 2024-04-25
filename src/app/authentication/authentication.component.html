@@ -1,0 +1,68 @@
+<section class="w-100 h-100 d-flex justify-content-center align-items-center position-relative">
+  
+    <!-- Language | Theme -->
+    <div class="d-none d-sm-flex gap-2 position-absolute top-0 ms-3 mt-3" 
+        [ngClass]="{
+          'end-0 me-2':   (appLang$ | async) === languagesEnum.Arabic, 
+          'start-0 ms-2': (appLang$ | async) === languagesEnum.English
+          }">
+
+          <!-- select language  -->
+        <div class="btn-group">
+          <button 
+            class="btn btn-primary btn-sm dropdown-toggle text-capitalize" 
+            type="button" 
+            data-bs-toggle="dropdown" 
+            aria-expanded="false">
+              {{ (appLang$ | async) === languagesEnum.Arabic ? ('Ar' | translate) : ('En' | translate) }}
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <button 
+                class="btn btn-sm text-capitalize" 
+                (click)="setLangguage(languagesEnum.Arabic)">
+                  {{ "Ar" | translate }}
+              </button>
+            </li>
+            <li>
+              <button 
+                class="btn btn-sm text-capitalize" 
+                (click)="setLangguage(languagesEnum.English)">
+                  {{ "En" | translate }}
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- select theme  -->
+        <div class="btn-group">
+          <button (click)="toggleTheme()" class="btn bg-primary text-light" matRipple>
+            <i class="fa" [ngClass]="isDarkTheme ? 'fa-moon-o' : 'fa-sun-o'" aria-hidden="true"></i>
+          </button>
+          <!-- <button  -->
+            <!-- class="btn btn-primary btn-sm dropdown-toggle text-capitalize"  -->
+            <!-- type="button"  -->
+            <!-- data-bs-toggle="dropdown"  -->
+            <!-- aria-expanded="false"> -->
+              <!-- {{ (appTheme$ | async) === themeEnum.Dark ? ('Dark' | translate) : ('Light' | translate) }} -->
+          <!-- </button> -->
+          <!-- <ul class="dropdown-menu"> -->
+            <!-- <li> -->
+              <!-- <button  -->
+                <!-- class="btn btn-sm text-capitalize"  -->
+                <!-- (click)="setTheme(themeEnum.Dark)"> -->
+                  <!-- {{ "Dark" | translate }} -->
+              <!-- </button></li> -->
+            <!-- <li> -->
+              <!-- <button  -->
+                <!-- class="btn btn-sm text-capitalize"  -->
+                <!-- (click)="setTheme(themeEnum.Ligth)"> -->
+                  <!-- {{ "Light" | translate }} -->
+              <!-- </button> -->
+            <!-- </li> -->
+          <!-- </ul> -->
+        </div>
+        
+    </div>
+    <router-outlet></router-outlet>
+</section>
