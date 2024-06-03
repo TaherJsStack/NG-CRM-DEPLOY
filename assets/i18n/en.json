@@ -125,6 +125,8 @@
   "KindlyEnterYourOTPCode":"kindly enter your OTP code",
   "Didn'tReceiveTheCode":"Didn't receive the code?",
   "CodeWillBeResendAfter":"code will be resend after",
-  "Seconds":"seconds"
+  "Seconds":"seconds",
+  "useAnyEmail":"Use any email",
+  "UseAnyPassword":"Use any password"
 
 }

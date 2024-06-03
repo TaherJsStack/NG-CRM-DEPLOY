@@ -125,5 +125,7 @@
     "KindlyEnterYourOTPCode":"يرجى إدخال رمز OTP الخاص بك",
     "Didn'tReceiveTheCode":"لم تتلق الرمز",
     "CodeWillBeResendAfter":"سيتم اعادة ارسال الرمز بعد",
-    "Seconds":" ثواني"
+    "Seconds":" ثواني",
+    "useAnyEmail":"استخدام اي بريدك الالكتروني",
+    "UseAnyPassword":"استخدام اي كلمة المرور الخاصة "
 }
